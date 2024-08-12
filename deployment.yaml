@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: demo
-          image: swr.af-south-1.myhuaweicloud.com/ralf2/demo:991eb61244c7b8e5db74f760676094d1fea000b2
+          image: swr.af-south-1.myhuaweicloud.com/ralf2/demo:v1.1
           ports:
             - containerPort: 3000
