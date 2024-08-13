@@ -3,7 +3,7 @@ const app = express();
 
 // Define a route handler for the default home page
 app.get('/', (req, res) => {
-  res.send('Hello, World NIgeria!');
+  res.send('Hello, World Lagos!');
 });
 
 // Start the server
