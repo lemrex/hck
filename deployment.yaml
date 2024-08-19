@@ -14,6 +14,8 @@ spec:
       labels:
         app: demo
     spec:
+      nodeSelector:
+        kubernetes.io.azure/node: backend
       containers:
         - name: demo
           image: swr.af-south-1.myhuaweicloud.com/ralf2/demo:image-version
